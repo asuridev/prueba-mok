@@ -13,10 +13,14 @@ Se implemento un ApiContext para manejar el estado global de la aplicacion y css
 para ver el funcionamiento puede visitar la pagina:
 https://asuridev.github.io/prueba-mok/
 
-## Configuracion para prueba LOcal ⚙️
+## Configuracion para prueba Local ⚙️
 para ejecutar  localmente clonar el repositorio:
 1. git clone https://github.com/asuridev/prueba-mok.git
 2. cd prueba-mok
 2. npm i 
 3. npm run dev
+
+## mejoras consideradas 🛠️
+1. agragar un loader para mostrar  mintras los datos son cargados.
+2. en caso que que se deseen cargar mas usuarios implementar lazy loading para no afectar el rendimiento.
 
