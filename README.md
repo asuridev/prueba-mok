@@ -1,8 +1,22 @@
-# React + Vite
+# Prueba tecnica Front Grupo MOK
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+En este proyecto se realiza una vista donde se renderiza 100 usuarios  aleatorio de la de la api:  https://randomuser.me
+se implementan ordenamineto y filtrado por deiferentes propiedades de los usuarios.
 
-Currently, two official plugins are available:
+## Funcionamiento 🔧
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Se implemento un ApiContext para manejar el estado global de la aplicacion y css vanilla para los estilos. Ademas se utilizó axios para el consumo de los datos de la api.
+
+## Comenzando 🚀
+
+## Despliegue 📦
+para ver el funcionamiento puede visitar la pagina:
+https://asuridev.github.io/prueba-mok/
+
+## Configuracion para prueba LOcal ⚙️
+para ejecutar  localmente clonar el repositorio:
+1. git clone https://github.com/asuridev/prueba-mok.git
+2. cd prueba-mok
+2. npm i 
+3. npm run dev
+
